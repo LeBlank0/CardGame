@@ -1,0 +1,209 @@
+.modal {
+    font-size: 12px;
+    background-color: #083064;
+    border-radius: 10px;
+    width: 1000px;
+    height: 600px;
+    -moz-box-shadow: 0px 0px 10px 5px #32206b;
+    -webkit-box-shadow: 0px 0px 10px 5px #32206b;
+    -o-box-shadow: 0px 0px 10px 5px #32206b;
+    box-shadow: 0px 0px 10px 5px #32206b;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#32206b, Direction=NaN, Strength=10);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #303c57;
+}
+.modal > .header {
+    width: 100%;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    color: #ffffff;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #083064;
+    color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #083064;
+}
+
+select {
+    font-family: Roboto, monospace;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 0 !important;
+    background: #303c57;
+    flex: 1;
+    padding: 0.5em;
+    color: #ffffff;
+    cursor: pointer;
+}
+select::-ms-expand {
+    display: none;
+}
+.select {
+    position: relative;
+    display: flex;
+    width: 464px;
+    height: 36px;
+    line-height: 3;
+    overflow: hidden;
+    margin-left: 274px;
+    visibility:true;
+}
+.select1 {
+    position: relative;
+    display: flex;
+    width: 464px;
+    line-height: 3;
+    height: 36px;
+    overflow: hidden;
+    margin-left: 274px;
+    visibility:hidden;
+}
+.select2 {
+    position: relative;
+    display: flex;
+    width: 464px;
+    line-height: 3;
+    height: 36px;
+    overflow: hidden;
+    margin-left: 274px;
+    visibility:hidden;
+}
+#slct {
+    text-align: center;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #20114f;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+.select:hover::after {
+    color: #ffffff;
+}
+.select1::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #20114f;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+.select1:hover::after {
+    color: #ffffff;
+}
+.select2::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #20114f;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+.select2:hover::after {
+    color: #ffffff;
+}
+
+.add-btn {
+    font-family: Roboto, monospace;
+    background: #1eb310;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: 0;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#theinput{
+    visibility:hidden;
+}
+#theinput2{
+    visibility:hidden;
+}
+#timer{
+    visibility:hidden;
+}
+#addbn{
+    visibility:hidden;
+}
+#btnspot{
+    visibility:hidden;
+}
+.btn-addwid{
+    font-family: Roboto, monospace;
+    display: block;
+    background: #0F0F6D;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 0;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+.btn-spot{
+    font-family: Roboto, monospace;
+    display: block;
+    background: #1ed760;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4em;
+    padding: 0.8rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border: 0;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,137 @@
+.bRegister {
+    margin-left: 20vw;
+    margin-top: calc(15vh - 86px);
+    height: 70vh;
+    width: 60vw;
+    background-color: #1d0f4b;
+    border-radius: 25px;
+    opacity: 0.95;
+    -moz-box-shadow: 0px 0px 10px 5px #32206b;
+    -webkit-box-shadow: 0px 0px 10px 5px #32206b;
+    -o-box-shadow: 0px 0px 10px 5px #32206b;
+    box-shadow: 0px 0px 10px 5px #32206b;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#32206b, Direction=NaN, Strength=10);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#resultRegister{
+    font-family: Roboto, monospace;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+
+.btn-1 {
+    font-family: Roboto, monospace;
+    display: block;
+    background: #0F0F6D;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 100px;
+    width: auto;
+    text-align: center;
+}
+
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1.demo {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    color: #f5f6ff;
+}
+a.demo {
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: normal;
+    color: rgba(202, 205, 239, 0.8);
+    margin-bottom: 3rem;
+}
+.demo-flex-spacer {
+    flex-grow: 1;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top1{
+    padding-top: 150px !important;
+}
+
+.webflow-style-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 1.2rem 2rem 1.2rem;
+    background: rgba(57, 63, 84, 0.8);
+}
+.webflow-style-input:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
+    background-size: 300% auto;
+    animation: gradient 3s linear infinite;
+}
+.webflow-style-input input {
+    flex-grow: 1;
+    color: #bfd2ff;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+}
+.webflow-style-input input::-webkit-input-placeholder {
+    color: #7881a1;
+}
+.webflow-style-input button {
+    color: #7881a1;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+    vertical-align: middle;
+    transition: color 0.25s;
+}
+.webflow-style-input button:hover {
+    color: #bfd2ff;
+}
